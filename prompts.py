@@ -10,7 +10,7 @@ Action_Response will be the result of running those actions.
 Your available actions are:
 
 get_response_time:
-e.g. get_response_time: learnwithhasan.com
+e.g. get_response_time: github.com
 Returns the response time of a website
 
 Example session:
@@ -22,7 +22,7 @@ Action:
 {
   "function_name": "get_response_time",
   "function_parms": {
-    "url": "learnwithhasan.com"
+    "url": "github.com"
   }
 }
 
@@ -34,5 +34,5 @@ Action_Response: 0.5
 
 You then output:
 
-Answer: The response time for learnwithhasan.com is 0.5 seconds.
+Answer: The response time for github.com is 0.5 seconds.
 """
