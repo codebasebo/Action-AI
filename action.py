@@ -12,7 +12,7 @@ def get_response_time(url):
     Returns the response time of a website (mock implementation).
     """
     mock_response_times = {
-        "learnwithhasan.com": 0.5,
+        "github.com": 0.5,
         "google.com": 0.3,
         "openai.com": 0.4
     }
